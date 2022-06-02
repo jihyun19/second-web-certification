@@ -71,6 +71,25 @@ img {
     color: #333;
 }
 
+/* header */
+header {
+    background: #fff;
+}
+
+.p-ab {
+    position: absolute;
+}
+
+/* display none */
+
+.d-none * {
+    display: none;
+}
+
+.d-block * {
+    display: block;
+}
+
 
 /* header*/
 header {
@@ -140,6 +159,11 @@ header .submenu-group a:hover {
     height: 300px;
 }
 
+.section--image--slide img{
+    position: absolute;
+    width: 1200px;   
+}
+
 
 /* contents */
 .section--contents {
@@ -187,6 +211,14 @@ header .submenu-group a:hover {
     border-bottom: 1px solid #8e8e93;
     font-size: 18px;
     text-indent: 12px;
+}
+
+.notice-and-gallery .gallery {
+    justify-content: space-around;
+}
+
+.notice-and-gallery .gallery img {
+    width: 30%;
 }
 
 /* benner */
