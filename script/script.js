@@ -40,4 +40,12 @@ var switchFunc = function () {
         if($(".n-tab").hasClass("deactive")) switchFunc();
         console.log("dsd");
     });
+
+    // modal
+    $(".modal-trigger").click(function () {
+        $(".section--modal").fadeIn()
+    });
+    $(".close-btn").click(function () {
+        $(".section--modal").fadeOut()
+    });
 });

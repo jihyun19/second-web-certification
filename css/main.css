@@ -277,3 +277,33 @@ header .submenu-group a:hover {
 .cite-info .copyright {
     text-align: center;
 }
+
+/* modal */
+.section--modal {
+    width: 1200px;
+    height: 700px;
+    background: raba(0, 0, 0, .6);
+    z-index: 99;
+    justify-content: center;
+}
+
+.section--modal .modal-content {
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.a {
+    height: 50px;
+    background: rgb(53, 63, 109);
+    border: 1px solid black;
+}
+
+.b {
+    height: 200px;
+    background: rgb(53, 63, 109);
+    border: 1px solid black;
+}
